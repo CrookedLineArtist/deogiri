@@ -1,0 +1,558 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+
+<!-- Page Content -->
+<div id="page-content">
+<!-- Slider -->
+<div id="homepage-carousel">
+    <div class="container">
+        <div class="homepage-carousel-wrapper">
+            <div class="row">
+                <div class="col-md-6 col-sm-7">
+                    <div class="image-carousel">
+
+                      {% for g in site.data.gallery %}
+
+                      {% for cat in g.categories %}
+
+                        {% if (cat == "slide") %}
+                          <div class="image-carousel-slide">
+                            <img src="assets/img/{{g.src}}" alt="">
+                          </div>
+                        {% endif %}
+
+
+                      {% endfor %}
+                      {% endfor%}
+
+
+
+                    </div><!-- /.slider-image -->
+                </div><!-- /.col-md-6 -->
+                <div class="col-md-6 col-sm-5">
+                    <div class="slider-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1><small>Join</small> Deogiri Institute Of Engineering And Management Studies </h1>
+                                <form id="slider-form" role="form" action="" method="post">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="Full Name" type="text" required>
+                                            </div>
+                                        </div><!-- /.col-md-6 -->
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <input class="form-control has-dark-background" name="slider-email" id="slider-email" placeholder="Email" type="email" required>
+                                            </div>
+                                        </div><!-- /.col-md-6 -->
+                                    </div><!-- /.row -->
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <select name="slider-study-level" id="slider-study-level" class="has-dark-background" onmousedown="this.value='';" onchange="changedropdown(this.value);">
+                                                    <option value="- Not selected -">Degree</option>
+                                                    <!-- <option value="engineering">  Engineering </option>
+                                                    <option value="mba">        MBA         </option>
+                                                    <option value="redhat">       RetHat      </option> -->
+
+                                                </select>
+                                            </div><!-- /.form-group -->
+                                        </div><!-- /.col-md-6 -->
+
+
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <select name="slider-course" id="slider-course" class="has-dark-background" >
+
+                                              <option  value="- Not selected -">Course</option>
+                                              <!-- <option  value="Civil">Civil</option>
+                                              <option  value="Computer Science">Computer Science</option>
+                                              <option  value="EnTC">Electronics and Telecommunication</option>
+                                              <option  value="Mechanical ">Mechanical </option>
+                                              <option  value="MBA ">MBA </option>
+                                              <option  value="Mechanical ">MBA 1 </option>
+                                              <option  value="Redhat ">RedHat </option> -->
+
+
+                                                </select>
+                                            </div><!-- /.form-group -->
+                                        </div><!-- /.col-md-6 -->
+                                    </div><!-- /.row -->
+                                    <button type="submit" id="slider-submit" class="btn btn-framed pull-right">Submit</button>
+                                    <div id="form-status"></div>
+                                </form>
+                            </div><!-- /.col-md-12 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.slider-content -->
+                </div><!-- /.col-md-6 -->
+            </div><!-- /.row -->
+            <div class="background"></div>
+        </div><!-- /.slider-wrapper -->
+        <div class="slider-inner"></div>
+    </div><!-- /.container -->
+</div>
+<!-- end Slider -->
+
+
+<!-- News, Events, About -->
+<div class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <section class="news-small" id="news-small">
+                    <header>
+                        <h2>News</h2>
+                    </header>
+                    <div class="section-content">
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-24-2014</figure>
+                            <header><a href="#">DIEMS STTP “Advance Research Technique and Indian Patents :- A Comperhensive Study”</a></header>
+                        </article><!-- /article -->
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-24-2014</figure>
+                            <header><a href="#">UGC -2016 INTERVIEW SCHEDULE</a></header>
+                        </article><!-- /article -->
+                        <article>
+                            <figure class="date"><i class="fa fa-file-o"></i>08-24-2014</figure>
+                            <header><a href="#">207 Students placed in AY 2016-17</a></header>
+                        </article><!-- /article -->
+                    </div><!-- /.section-content -->
+                    <a href="" class="read-more stick-to-bottom">All News</a>
+                </section><!-- /.news-small -->
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 col-sm-6">
+                <section class="events small" id="events-small">
+                    <header>
+                        <h2>Events</h2>
+                        <a href="" class="link-calendar">Calendar</a>
+                    </header>
+                    <div class="section-content">
+                        <article class="event nearest">
+                            <figure class="date">
+                                <div class="month">jan</div>
+                                <div class="day">18</div>
+                            </figure>
+                            <aside>
+                                <header>
+                                    <a href="event-detail.html">DIEMS </a>
+                                </header>
+                                <div class="additional-info">STTP</div>
+                            </aside>
+                        </article><!-- /article -->
+                        <article class="event nearest-second">
+                            <figure class="date">
+                                <div class="month">feb</div>
+                                <div class="day">01</div>
+                            </figure>
+                            <aside>
+                                <header>
+                                    <a href="event-detail.html">Alumni Meet </a>
+                                </header>
+                                <div class="additional-info clearfix" >2017</div>
+                            </aside>
+                        </article><!-- /article -->
+                        <article class="event ">
+                            <figure class="date">
+                                <div class="month">mar</div>
+                                <div class="day">23</div>
+                            </figure>
+                            <aside>
+                                <header>
+                                    <a href="event-detail.html">Red Hat India Pvt. Ltd.</a>
+                                </header>
+                                <div class="additional-info">Intro to RedHat</div>
+                            </aside>
+                        </article><!-- /article -->
+                    </div><!-- /.section-content -->
+                </section><!-- /.events-small -->
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4 col-sm-12">
+                <section id="about">
+                    <header>
+                        <h2>About D I E M S</h2>
+                    </header>
+                    <div class="section-content">
+                        <img src="assets/img/diems.jpg" alt="" class="add-margin">
+                        <p><strong>Welcome o D I E M S.</strong> In pursuance with the policies of the Government of India to start Engineering colleges in emerging technologies, the Deogiri Institute of Engineering and Management Studies is established at Aurangabad during the academic year 2009-10.</p>
+
+                        <a href="" class="read-more stick-to-bottom">Read More</a>
+                    </div><!-- /.section-content -->
+                </section><!-- /.about -->
+            </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
+<!-- end News, Events, About -->
+
+<!-- Testimonial -->
+<section id="testimonials">
+    <div class="block">
+        <div class="container">
+            <div class="author-carousel">
+                <div class="author">
+                    <blockquote>
+                        <figure class="author-picture"><img src="/assets/img/rajesh.png" alt=""></figure>
+                        <article class="paragraph-wrapper">
+                            <div class="inner">
+                                <header>I just want to give a big thanks to everyone at College DIEMS. You guys are helping me to make my dream come true.</header>
+                                <p>Rajesh Dhalange,<br/>
+                                  Fosterbin Technologies Pvt. Ltd.</p>
+
+                            </div>
+                        </article>
+                    </blockquote>
+                </div><!-- /.author -->
+                <div class="author">
+                    <blockquote>
+                        <figure class="author-picture"><img src="/assets/img/bilal.png" alt=""></figure>
+                        <article class="paragraph-wrapper">
+                            <div class="inner">
+                                <header>Academics of my college are very good and well organised. Daily routine includes 8 hours in total which includes practical and lectures. All the required concepts are taught by my teachers which are helpful for a better understanding of present world applications and also future applications. Overall I have a very good experience in my college everyday.</header>
+                                <p>Bilal Shaikh,<br/>
+                                  Fosterbin Technologies Pvt. Ltd.</p>
+                            </div>
+                        </article>
+                    </blockquote>
+                </div><!-- /.author -->
+                <div class="author">
+                    <blockquote>
+                        <figure class="author-picture"><img src="/assets/img/student-testimonial.jpg" alt=""></figure>
+                        <article class="paragraph-wrapper">
+                            <div class="inner">
+                                <header>I can positively say DIEMS has made me a better person. It has helped me develop a positive attitude towards my studies and discover more about myself. Teachers are very caring and interested in students’ well-being. They make sure every class is fun, educational and interactive.</header>
+                                <p>Pooja Biyani,<br/>
+                                  Student</p>
+                            </div>
+                        </article>
+                    </blockquote>
+                </div><!-- /.author -->
+            </div><!-- /.author-carousel -->
+        </div><!-- /.container -->
+    </div><!-- /.block -->
+</section>
+<!-- end Testimonial -->
+
+<!-- Academic Life, Campus Life, Newsletter -->
+<div class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <section id="academic-life">
+                    <header>
+                        <h2>Academic Life & Research</h2>
+                    </header>
+                    <div class="section-content">
+                        <ul class="list-links">
+                            <li><a href="#">Programs and Areas</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Graduate & Postdoctoral Programs</a></li>
+                            <li><a href="#">Continuing Studies</a></li>
+                            <li><a href="#">International Activities</a></li>
+                            <li><a href="#">Course Calendars & Listings</a></li>
+                        </ul>
+                    </div><!-- /.section-content -->
+                </section><!-- /.academic-life -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-4 col-sm-4">
+                <section id="campus-life">
+                    <header>
+                        <h2>Campus Life</h2>
+                    </header>
+                    <div class="section-content">
+                        <ul class="list-links">
+                            <li><a href="#">Athletics & Recreation</a></li>
+                            <li><a href="#">Clubs & Extra-curricular Activities</a></li>
+                            <li><a href="#">Health & Wellness</a></li>
+                            <li><a href="#">Housing & Residence</a></li>
+                            <li><a href="#">Arts & Culture</a></li>
+                            <li><a href="#">Student IT Services</a></li>
+                        </ul>
+                    </div><!-- /.section-content -->
+                </section><!-- /.campus-life -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-4 col-sm-4">
+                <section id="newsletter">
+                    <header>
+                        <h2>Newsletter</h2>
+                        <div class="section-content">
+                            <div class="newsletter">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Your e-mail">
+                                    <span class="input-group-btn">
+                                        <button type="submit" class="btn"><i class="fa fa-angle-right"></i></button>
+                                    </span>
+                                </div><!-- /input-group -->
+                            </div><!-- /.newsletter -->
+                            <p class="opacity-50">Ut tincidunt, quam in tincidunt vestibulum, turpis ipsum porttitor nisi, et fermentum augue
+                                lit eu neque. In at tempor dolor, sit amet dictum lacus. Praesent porta orci eget laoreet ultrices.
+                            </p>
+                        </div><!-- /.section-content -->
+                    </header>
+                </section><!-- /.newsletter -->
+            </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
+<!-- end Academic Life, Campus Life, Newsletter -->
+
+<!-- Divisions, Connect -->
+<div class="block">
+    <div class="container">
+        <div class="block-dark-background">
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <section id="division" class="has-dark-background">
+                        <header>
+                            <h2>Divisions</h2>
+                        </header>
+                        <div class="section-content">
+                            <ul class="list-links">
+                                <li><a href="#">Accounting & Finance</a></li>
+                                <li><a href="#">Advertising & Marketing</a></li>
+                                <li><a href="#">Architecture & Interior</a></li>
+                                <li><a href="#">Arts & Design</a></li>
+                                <li><a href="#">Broadcasting & Journalism</a></li>
+                                <li><a href="#">Business & Management</a></li>
+                                <li><a href="#">Computing & IT</a></li>
+                            </ul>
+                        </div><!-- /.section-content -->
+                    </section><!-- #.divisions -->
+                </div>
+                <div class="col-md-9 col-sm-8">
+                    <section id="connect" class="has-dark-background">
+                        <header>
+                            <h2>Connect</h2>
+                        </header>
+                        <div class="connect-block">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li class="active"><a href="#tab-twitter" data-toggle="pill"><i class="fa fa-twitter"></i>Twitter</a></li>
+                                        <li><a href="#tab-facebook" data-toggle="pill"><i class="fa fa-facebook"></i>Facebook</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="tab-twitter">
+                                        <div class="col-md-3">
+                                            <article class="social-post twitter-post">
+                                                <header>15 minutes ago</header>
+                                                <figure><a href="#">@DTCEMS</a></figure>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam odio augue, accumsan ut massa ut, faucibus gravida turpis.
+                                                    <a href="http://bit.ly/1bMyz64">http://bit.ly/1bMyz64</a>
+                                                </p>
+                                            </article><!-- /.twitter-post -->
+                                        </div>
+                                        <div class="col-md-3">
+                                            <article class="social-post twitter-post">
+                                                <header>2 hours ago</header>
+                                                <figure><a href="#">@DTCEMS</a></figure>
+                                                <p>
+                                                    Nullam odio augue, accumsan ut massa ut, faucibus gravida turpis. Nulla eleifend libero mi, at consequat tellus.
+                                                    <a href="http://bit.ly/1bMyz64">http://bit.ly/1bMyz64</a>
+                                                </p>
+                                            </article><!-- /.twitter-post -->
+                                        </div>
+                                        <div class="col-md-3">
+                                            <article class="social-post twitter-post">
+                                                <header>February 02, 2014</header>
+                                                <figure><a href="#">@DTCEMS</a></figure>
+                                                <p>
+                                                    Ut at arcu sed justo laoreet iaculis ut nec leo. Aliquam laoreet orci eu egestas fermentum.
+                                                    <a href="http://bit.ly/1bMyz64">http://bit.ly/1bMyz64</a>
+                                                </p>
+                                            </article><!-- /.twitter-post -->
+                                        </div>
+                                    </div><!-- /.tab-twitter -->
+                                    <div class="tab-pane fade" id="tab-facebook">
+                                        <div class="col-md-3">
+                                            <article class="social-post facebook-post">
+                                                <header>30 minutes ago</header>
+                                                <figure><a href="#">@DTCEMS</a></figure>
+                                                <p>
+                                                    Ut at arcu sed justo laoreet iaculis ut nec leo. Aliquam laoreet orci eu egestas fermentum.
+                                                    <a href="http://bit.ly/1bMyz64">http://bit.ly/1bMyz64</a>
+                                                </p>
+                                            </article><!-- /.twitter-post -->
+                                        </div>
+                                        <div class="col-md-3">
+                                            <article class="social-post facebook-post">
+                                                <header>4 days ago</header>
+                                                <figure><a href="#">@DTCEMS</a></figure>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam odio augue, accumsan ut massa ut, faucibus gravida turpis.
+                                                    <a href="http://bit.ly/1bMyz64">http://bit.ly/1bMyz64</a>
+                                                </p>
+                                            </article><!-- /.twitter-post -->
+                                        </div>
+                                        <div class="col-md-3">
+                                            <article class="social-post facebook-post">
+                                                <header>One week ago</header>
+                                                <figure><a href="#">@DTCEMS</a></figure>
+                                                <p>
+                                                    Nullam odio augue, accumsan ut massa ut, faucibus gravida turpis. Nulla eleifend libero mi, at consequat tellus.
+                                                    <a href="http://bit.ly/1bMyz64">http://bit.ly/1bMyz64</a>
+                                                </p>
+                                            </article><!-- /.twitter-post -->
+                                        </div>
+                                    </div><!-- /.tab-twitter -->
+                                </div><!-- /.tab-content -->
+                            </div><!-- /.row -->
+                        </div><!-- /.section-content -->
+                    </section><!-- #.divisions -->
+                </div><!-- /.col-md-9 -->
+            </div><!-- /.row -->
+        </div><!-- /.block-dark-background -->
+    </div><!-- /.container -->
+</div>
+<!-- end Divisions, Connect -->
+
+<!-- Our Professors, Gallery -->
+<div class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <section id="our-professors">
+                    <header>
+                        <h2>Our Professors</h2>
+                    </header>
+                    <div class="section-content">
+                        <div class="professors">
+                            <article class="professor-thumbnail">
+                                <figure class="professor-image"><a href="member-detail.html"><img src="assets/img/professor.jpg" alt=""></a></figure>
+                                <aside>
+                                    <header>
+                                        <a href="member-detail.html">Prof. Mathew Davis</a>
+                                        <div class="divider"></div>
+                                        <figure class="professor-description">Applied Science and Engineering</figure>
+                                    </header>
+                                    <a href="member-detail.html" class="show-profile">Show Profile</a>
+                                </aside>
+                            </article><!-- /.professor-thumbnail -->
+                            <article class="professor-thumbnail">
+                                <figure class="professor-image"><a href="member-detail.html"><img src="assets/img/professor-02.jpg" alt=""></a></figure>
+                                <aside>
+                                    <header>
+                                        <a href="member-detail.html">Prof. Jane Stairway</a>
+                                        <div class="divider"></div>
+                                        <figure class="professor-description">Applied Science and Engineering</figure>
+                                    </header>
+                                    <a href="member-detail.html" class="show-profile">Show Profile</a>
+                                </aside>
+                            </article><!-- /.professor-thumbnail -->
+                            <a href="" class="read-more stick-to-bottom">All Professors</a>
+                        </div><!-- /.professors -->
+                    </div><!-- /.section-content -->
+                </section><!-- /.our-professors -->
+            </div><!-- /.col-md-4 -->
+
+            <div class="col-md-8 col-sm-8">
+                <section id="gallery">
+                    <header>
+                        <h2>Gallery</h2>
+                    </header>
+                    <div class="section-content">
+                        <ul class="gallery-list">
+
+
+
+                          {% for g in site.data.gallery %}
+
+                          {% for cat in g.categories %}
+
+                            {% if cat == 'gallery' %}
+
+
+                              <li>
+                                <a href="assets/img/{{g.src}}" class="image-popup">
+                                  <img src="assets/img/{{g.src}}" alt="">
+                                </a>
+                              </li>
+
+                            {% endif %}
+
+
+                          {% endfor%}
+                          {% endfor%}
+
+
+                        </ul>
+                        <a href="" class="read-more">Go to Gallery</a>
+                    </div><!-- /.section-content -->
+                </section><!-- /.gallery -->
+            </div><!-- /.col-md-4 -->
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
+<!-- end Our Professors, Gallery -->
+
+<!-- Partners, Make a Donation -->
+<div class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-sm-9">
+                <section id="partners">
+                    <header>
+                        <h2>Recent recruiting companies </h2>
+                    </header>
+                    <div class="section-content">
+                        <div class="logos">
+
+                          {% for g in site.data.gallery %}
+
+                              {% for cat in g.categories   %}
+
+                                {% if (cat == 'company')  %}
+
+                                  <div class="logo">
+                                      <a href=""><img src="/assets/img/recruiting companies/{{g.src}}" alt=""></a>
+                                  </div>
+
+                                {% endif %}
+                              {% endfor%}
+                          {% endfor%}
+
+                        </div>
+                        <br><br>
+                        <a href="" class="read-more stick-to-bottom">All recruiting companies</a>
+                    </div>
+                </section>
+            </div><!-- /.col-md-9 -->
+            <div class="col-md-3 col-sm-3">
+                <section id="donation">
+                    <header>
+                        <h2>Get Admission</h2>
+                    </header>
+                    <div class="section-content">
+                        <a href="" class="universal-button">
+                            <h3>D I E M S Academics</h3>
+                            <figure class="date"><i class="fa fa-arrow-right"></i></figure>
+                        </a>
+                    </div><!-- /.section-content -->
+                </section>
+            </div><!-- /.col-md-3 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
+<!-- end Partners, Make a Donation -->
+</div>
+<!-- end Page Content -->

@@ -1,0 +1,302 @@
+- src: about-us-head-img.jpg
+  categories:
+    - about
+    - head
+- src: background-city.png
+  categories:
+    -
+- src: big-star-off.png
+  categories:
+    -
+- src: big-star-on.png
+  categories:
+    -
+- src: blog-01.jpg
+  categories:
+    -
+- src: blog-02.jpg
+  categories:
+    -
+- src: blog-03.jpg
+  categories:
+    -
+- src: blog-04.jpg
+  categories:
+    -
+- src: blog-05.jpg
+  categories:
+    -
+- src: blog-06.jpg
+  categories:
+    -
+- src: blog-detail-img.jpg
+  categories:
+    -
+- src: book-01.jpg
+  categories:
+    -
+- src: book-02.jpg
+  categories:
+    -
+- src: college
+  categories:
+    -
+- src: course
+  categories:
+    -
+- src: course-civil.jpg
+  categories:
+    - civil
+    - course
+    - gallery
+
+- src: course-cs.jpg
+  categories:
+    - course
+    - cs
+    - gallery
+
+- src: course-entc.jpg
+  categories:
+    - course
+    - entc
+    - gallery
+
+- src: course-mech.jpg
+  categories:
+    - mech
+    - course
+    - gallery
+
+- src: deogiri-logo.svg
+  categories:
+    -
+- src: diems-infra.jpg
+  categories:
+    - diems
+    - gallery
+- src: diems.jpg
+  categories:
+    - diems
+
+- src: discussion-author-02.jpg
+  categories:
+    -
+
+- src: entc.JPG
+  categories:
+    - gallery
+    -
+- src: event-img-01.jpg
+  categories:
+    -
+- src: event-img-02.jpg
+  categories:
+    -
+- src: event-img-03.jpg
+  categories:
+    -
+- src: event-img-04.jpg
+  categories:
+    -
+- src: event-img-05.jpg
+  categories:
+    -
+- src: event-slide-01.jpg
+  categories:
+    -
+- src: gallery-big-image.jpg
+  categories:
+    -
+- src: grabbing.png
+  categories:
+    -
+- src: image-01.jpg
+  categories:
+    -
+- src: image-02.jpg
+  categories:
+    -
+
+- src: landing-page-background.jpg
+  categories:
+    -
+- src: logo
+  categories:
+    -
+- src: logo-partner-01.png
+  categories:
+    -
+- src: logo-partner-02.png
+  categories:
+    -
+- src: logo-partner-03.png
+  categories:
+    -
+- src: logo-partner-04.png
+  categories:
+    -
+- src: logo-partner-05.png
+  categories:
+    -
+- src: logo-white.png
+  categories:
+    -
+- src: logo-white1.png
+  categories:
+    -
+- src: logo.png
+  categories:
+    -
+- src: mba.jpg
+  categories:
+    - mba
+    - gallery
+- src: mech.jpg
+  categories:
+    - mech
+    - gallery
+- src: member-detail.jpg
+  categories:
+    -
+- src: navigation-background.jpg
+  categories:
+    -
+- src: professor-02.jpg
+  categories:
+    -
+- src: professor.jpg
+  categories:
+    -
+- src: profile-avatar.jpg
+  categories:
+    -
+- src: recruiting companies
+  categories:
+    -
+- src: slide-civil.jpg
+  categories:
+    - civil
+    - slide
+    - gallery
+- src: slide-engg.jpg
+  categories:
+    - slide
+    - engg
+- src: slide-mech-class.jpg
+  categories:
+    - slide
+    - mech
+- src: slide-mech-workshop.jpg
+  categories:
+    - slide
+    - mech
+- src: slide-mech.jpg
+  categories:
+    - slide
+    -
+- src: slider-slide-02.jpg
+  categories:
+    -
+- src: star-off.png
+  categories:
+    -
+- src: star-on.png
+  categories:
+    -
+- src: student-testimonial.jpg
+  categories:
+    -
+- src: students.jpg
+  categories:
+    -
+
+
+
+- src: aegis.png
+  categories:
+    - companies
+- src: amazon.png
+  categories:
+    - companies
+    - company
+- src: capgemini.png
+  categories:
+    - companies
+    - company
+- src: eClerx.png
+  categories:
+    - companies
+- src: endurance.png
+  categories:
+    - companies
+    - company
+- src: expert-global.png
+  categories:
+    - companies
+    - company
+- src: flipkart.png
+  categories:
+    - companies
+    - company
+- src: grind master.png
+  categories:
+    - companies
+    - company
+- src: icici-bank.png
+  categories:
+    - companies
+    - company
+- src: imagination.png
+  categories:
+    - companies
+- src: jaro education.png
+  categories:
+    - companies
+- src: justdial.png
+  categories:
+    - companies
+    - company
+- src: mercé.png
+  categories:
+    - companies
+    - company
+- src: mitroz.png
+  categories:
+    - companies
+- src: mphasis.png
+  categories:
+    - companies
+- src: opulent.png
+  categories:
+    - companies
+- src: redhat.png
+  categories:
+    - companies
+    - company
+- src: shiram.png
+  categories:
+    - companies
+- src: sokrati.png
+  categories:
+    - companies
+- src: tudip.png
+  categories:
+    - companies
+- src: valuD.png
+  categories:
+    - companies
+    - company
+- src: volkswagen.png
+  categories:
+    - companies
+    - company
+- src: wns-assistance.png
+  categories:
+    - companies
+- src: xdbs.png
+  categories:
+    - companies
+- src: xento.png
+  categories:
+    - companies

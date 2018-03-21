@@ -1,0 +1,113 @@
+---
+layout: page
+site-map-1: academic
+---
+
+
+
+
+
+<!-- Page Content -->
+<div id="page-content">
+  <div class="container">
+    <div class="row">
+      <!--MAIN Content-->
+      <div class="col-md-10">
+        <div id="page-main">
+          <section class="course-listing" id="courses">
+            <header>
+              <h1>Courses</h1></header>
+            <section id="course-search">
+              <div class="search-box">
+                <header><span class="fa fa-search"></span>
+                  <h2>Find Course for You</h2></header>
+                <form id="course-search-form" role="form" class="form-inline">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="course-type">Course Type</label>
+
+                        <select name="course-type" id="course-type">
+                                                  <option value=""> </option>
+                                                  <option value="Engineering">Engineering</option>
+                                                  <option value="M.B.A">MBA</option>
+                                                  <option value="Redhat">RetHat</option>
+                        </select>
+
+                    </div>
+                    <!-- /.form-group -->
+
+
+
+                    <div class="form-group">
+                      <label for="full-text">Full Text</label>
+                      <input name="full-text" id="full-text" placeholder="Enter Keyword" type="text">
+                    </div>
+                    <!-- /.form-group -->
+                  </div>
+
+                  <!-- <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">Webinar
+                                        </label>
+                                    </div> -->
+                  <button type="submit" class="btn pull-right">Search</button>
+                </form>
+                <!-- /#<!-- /.form-group -->
+              </div>
+              <!-- /.course-search-box -->
+            </section>
+            <!-- /#course-search -->
+            <section id="course-list">
+              <div class="table-responsive">
+                <table class="table table-hover course-list-table tablesorter">
+                  <thead>
+                    <tr>
+                      <th>Course / Degree Name</th>
+
+                      <th>Course Type</th>
+                      <th>Duration</th>
+                      <th>DTE code</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+
+                    {% for c in site.pages %} {% if c.categories != null  %}
+                    <tr>
+                      <th class="course-title"><a href="/course-detail/{{c.name | replace: '.md', '' }}.html">{{c.branch}}</a></th>
+                      <th class="course-type"><a href="#">{{c.degree}}</a></th>
+                      <th class="course-category"><a href="#">{{c.no-of-year}}</a></th>
+                      <th class="course-category"><a href="#">{{c.dte-code}}</a></th>
+
+                    </tr>
+                    {% endif %} {%endfor%}
+
+
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </section>
+          <!-- /.course-listing -->
+
+        </div>
+        <!-- /#page-main -->
+      </div>
+      <!-- /.col-md-8 -->
+
+
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!-- end Page Content -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script language="javascript" type="text/javascript">
+  var dropdown = location.search.slice(13);
+  //redhat
+
+  $("#course-type").val(dropdown);
+</script>

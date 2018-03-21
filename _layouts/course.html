@@ -1,0 +1,196 @@
+---
+layout: page
+
+---
+
+
+
+
+    <!-- Page Content -->
+    <div id="page-content">
+        <div class="container">
+            <header><h1>{{ page.branch }}</h1></header>
+            <div class="row">
+                <!-- Course Image -->
+                <div class="col-md-2">
+                    <figure class="course-image">
+                        <div class="image-wrapper"><img src="/assets/img/course-detail-img.jpg"></div>
+                    </figure>
+                </div><!-- end Course Image -->
+                <!--MAIN Content-->
+                <div class="col-md-7">
+                    <div id="page-main">
+                        <section id="course-detail">
+                            <article class="course-detail">
+                                <section id="course-header">
+                                  <hr>
+                                    <div class="course-count-down">
+                                        <a href="register-sign-in.html" class="btn" id="btn-course-join">Join Course</a>
+                                    </div><!-- /.course-count-down -->
+
+                                    <figure>
+                                        <span class="course-summary" id="course-length"><i class="fa fa-calendar-o"></i>{{page.no-of-year}} years</span>
+                                        <!-- <span class="course-summary" id="course-time-amount"><i class="fa fa-folder-o"></i>4-6 hours of work / week</span>
+                                        <span class="course-summary" id="course-course-time"><i class="fa fa-clock-o"></i>6:00pm – 8:00pm</span> -->
+                                    </figure>
+                                </section><!-- /#course-header -->
+
+                                <section id="course-info">
+                                    <header><h2>Course Info</h2></header>
+                                    <p>
+                                        {{ content }}
+                                    </p>
+                                </section><!-- /#course-info -->
+
+
+
+
+
+                                <section id="gallery">
+                                    <header><h2>Gallery</h2></header>
+                                    <ul class="gallery-list">
+
+                                    {% for g in site.data.gallery %}
+
+                                    {% for cat in g.categories %}
+
+                                      {% if cat == page.short %}
+                                        <li>
+                                          <a href="/assets/img/{{g.src}}" class="image-popup">
+                                            <img src="/assets/img/{{g.src}}" alt="">
+                                          </a>
+                                        </li>
+
+                                      {% endif %}
+                                      
+
+
+                                    {% endfor%}
+                                    {% endfor%}
+
+                                    </ul>
+                                </section><!-- /#course-gallery -->
+
+                                <section id="course-faq">
+                                    <header><h2>FAQ</h2></header>
+                                    <ul class="faq-list">
+                                        <!-- Question -->
+                                        <li>
+                                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et nibh at diam?</h5>
+                                            <p class="description">
+                                                Aliquam sed fermentum nulla. Praesent dictum, velit in condimentum volutpat,
+                                                nulla orci vestibulum risus, et facilisis purus urna non metus. Donec aliquam
+                                                urna et tempus luctus.
+                                            </p>
+                                        </li>
+                                        <!-- end Question -->
+                                        <!-- Question -->
+                                        <li>
+                                            <h5>Fusce gravida varius justo sed porta?</h5>
+                                            <p class="description">
+                                                Ut tincidunt dui non velit aliquet, quis porta quam
+                                                vehicula. Vivamus suscipit hendrerit arcu. Nullam lacinia purus at porttitor
+                                                varius. Aliquam rutrum feugiat tempor.
+                                            </p>
+                                        </li>
+                                        <!-- end Question -->
+                                        <!-- Question -->
+                                        <li>
+                                            <h5>Vivamus ac risus cursus, eleifend lorem quis, viverra urna.?</h5>
+                                            <p class="description">
+                                                Aenean porttitor feugiat nibh. Phasellus et dolor id nulla dictum lacinia
+                                                nec bibendum arcu. Vestibulum ante ipsum primis in faucibus orci luctus
+                                                et ultrices posuere cubilia Curae
+                                            </p>
+                                        </li>
+                                        <!-- end Question -->
+                                        <!-- Question -->
+                                        <li>
+                                            <h5>Hasellus non nisl et quam tristique placerat. Aliquam elementum tempus ?</h5>
+                                            <p class="description">
+                                                Pellentesque a luctus libero. Integer mattis diam sem, nec ornare neque
+                                                consequat id. Nullam malesuada lacus in rhoncus pellentesque. Mauris risus
+                                                mauris, commodo ac volutpat eget, lacinia a risus. Aliquam nec semper libero,
+                                                ac pharetra libero.
+                                            </p>
+                                        </li>
+                                        <!-- end Question -->
+                                    </ul><!-- /.faq-list -->
+                                </section><!-- /#course-faq -->
+
+
+
+
+                                <hr>
+
+                                <section id="join-to-course" class="center">
+                                    <a href="register-sign-in.html" class="btn" id="btn-course-join-bottom">Join Course</a>
+                                </section><!-- /#join-to-course -->
+
+                            </article><!-- /.course-detail -->
+                        </section><!-- /.course-detail -->
+                    </div><!-- /#page-main -->
+                </div><!-- /.col-md-8 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--SIDEBAR Content-->
+                <div class="col-md-3">
+                    <div id="page-sidebar" class="sidebar">
+                        <aside id="course-speakers">
+                            <header><h2>Faculty</h2></header>
+
+
+                        {% for f in site.data.faculties %}
+
+                          {% if f.branch == page.short %}
+                          {% for fa in f.faculty %}
+                            <div class="author-block course-speaker">
+                                <article class="paragraph-wrapper">
+                                    <div class="inner">
+                                        <a href="member-detail.html"><header>
+
+                                          {{ fa.name }}
+
+                                        </header></a>
+                                        <figure>
+
+                                        -  {{ fa.designation }}
+
+                                        </figure>
+
+                                    </div>
+                                </article>
+                            </div><!-- /.author -->
+                            {% endfor %}
+                          {% endif %}
+
+
+                        {% endfor %}
+
+
+                        </aside><!-- /#course-speakers -->
+
+                    </div><!-- /#sidebar -->
+                </div><!-- /.col-md-4 -->
+                <!-- end SIDEBAR Content-->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div>
+    <!-- end Page Content -->

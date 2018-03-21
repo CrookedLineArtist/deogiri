@@ -1,0 +1,465 @@
+
+
+- branch: mech
+  faculty:
+    - name: Mr. P.G. Taur
+      designation: Associate Professor
+    - name: Mr. S.C. Borse
+      designation: Assistant Professor
+    - name: Mr. R.R. Kolekar
+      designation: Assistant Professor
+    - name: Mr. J.J. Salunke
+      designation: Assistant Professor
+    - name: Mr. P.V. Jawale
+      designation: Assistant Professor
+    - name: Mr. D.U. Gopekar
+      designation: Assistant Professor
+    - name: Mr. A.B. Patil
+      designation: Assistant Professor
+    - name: Mr. U.S. Patil
+      designation: Assistant Professor
+    - name: Mr. K. S. Bansode
+      designation: Assistant Professor
+    - name: Mr. Y.E. Mangulkar
+      designation: Assistant Professor
+    - name: Mr. B.G. Marlapalle
+      designation: Assistant Professor
+    - name: Mr. S. M. Agrawal
+      designation: Assistant Professor
+    - name: Mr. R.H. Shinde
+      designation: Assistant Professor
+    - name: Mr. R. N. Patil
+      designation: Assistant Professor
+    - name: Mr. M.D. Urney
+      designation: Assistant Professor
+    - name: Ms. V.V. Simant
+      designation: Assistant Professor
+    - name: Mr. U.S. Patharkar
+      designation: Assistant Professor
+    - name: Mr. K.B. Kolhapure
+      designation: Assistant Professor
+    - name: Mr. M.L. Jadhav
+      designation: Assistant Professor
+    - name: Mr. R. B Kakade
+      designation: Assistant Professor
+    - name: Mr. V. V Chahare
+      designation: Assistant Professor
+    - name: Mr. P.S. Shelke
+      designation: Assistant Professor
+    - name: Mr. H.D. Sharma
+      designation: Assistant Professor
+    - name: Mr. J.B. Shaikh
+      designation: Assistant Professor
+    - name: Mr. C. D Sagar
+      designation: Assistant Professor
+    - name: Mr. A. J Punewale
+      designation: Assistant Professor
+    - name: Ms. P.V. Kulkarni
+      designation: Assistant Professor
+    - name: Mr. P.R. Hande
+      designation: Assistant Professor
+    - name: Dr. V.L. Chinchane
+      designation: Assistant Professor
+    - name: Mr. Vithhal Jumbad
+      designation: Assistant Professor
+    - name: Mr. G. P. Badarkhe
+      designation: Assistant Professor
+    - name: Mr. S. T. Parihar
+      designation: Assistant Professor
+    - name: Mr. Y. M. Sardar
+      designation: Assistant Professor
+    - name: Mr. Atul Karanjkar
+      designation: Assistant Professor
+
+
+- branch: entc
+  faculty:
+    - name: Dr. U.D. Shiurkar
+      designation: Professor & Director
+    - name: Dr. R. M. Autee
+      designation: Professor
+    - name: Mrs. P.M. Soni
+      designation: Assistant Professor
+    - name: Mrs. P.P. Dharurkar
+      designation: Assistant Professor
+    - name: Mrs. A. R Wadhekar
+      designation: Assistant Professor
+    - name: Mrs. K.A. Diccar
+      designation: Assistant Professor
+    - name: Mrs. S.K. Mathapati
+      designation: Assistant Professor
+    - name: Mrs. A.V. Nikalje
+      designation: Assistant Professor
+    - name: Mr. M. S. Badmera
+      designation: Assistant Professor
+    - name: Mr. K.S. Ingle
+      designation: Assistant Professor
+    - name: Mrs. A.A. Nair
+      designation: Assistant Professor
+    - name: Mr. G.L. Dake
+      designation: Assistant Professor
+    - name: Mrs. D.S. Sarode
+      designation: Assistant Professor
+    - name: Mrs. R.M. Dharme
+      designation: Assistant Professor
+    - name: Mr. V.K. Bhosale
+      designation: Assistant Professor
+    - name: Mr. S.N Gaikawad
+      designation: Assistant Professor
+    - name: Mrs. S.K. Kapde
+      designation: Assistant Professor
+    - name: Mr. A.K. Pathrikar
+      designation: Assistant Professor
+    - name: Mr.G.S. Lipane
+      designation: Assistant Professor
+    - name: Mr.L.K. Shevda
+      designation: Assistant Professor
+    - name: Mr.S. A Shaikh
+      designation: Assistant Professor
+    - name: Mr. Suhas Gayke
+      designation: Assistant Professor
+    - name: Mr.N.R. Folane
+      designation: Assistant Professor
+    - name: Ms.K.B. Dandge
+      designation: Assistant Professor
+    - name: Mr.A.A. Chavan
+      designation: Assistant Professor
+    - name: Mr. S. A. Karmude
+      designation: Assistant Professor
+    - name: Mr.K.R. Urgunde
+      designation: Assistant Professor
+    - name: Mr.A.M. Birajdar
+      designation: Assistant Professor
+
+
+- branch: civil
+  faculty:
+    - name:	Dr. G. R. Gandhe
+      designation: Professor
+    - name:	Mr. D. H. Tupe
+      designation: Assistant Professor
+    - name:	Mr. A. S. Pathan
+      designation: Assistant Professor
+    - name:	Mr. R.S. Patil
+      designation: Assistant Professor
+    - name:	Mr. D. S. Wadje
+      designation: Assistant Professor
+    - name:	Mr. Shaikh Mohd Zubair
+      designation: Assistant Professor
+    - name:	Dr. S. D. Shinde
+      designation: Assistant Professor
+    - name:	Mr. K.G. Patwari
+      designation: Assistant Professor
+    - name:	Ms. D.P. Mule
+      designation: Assistant Professor
+    - name:	Ms. M.S. Mhetre
+      designation: Assistant Professor
+    - name:	Mr. S.B. Salve
+      designation: Assistant Professor
+    - name:	Ms. K.S. Tidke
+      designation: Assistant Professor
+    - name:	Mr. S.B. Deshmukh
+      designation: Assistant Professor
+    - name:	Ms. P.M. Pankade
+      designation: Assistant Professor
+    - name:	Mr. D.B. Gaidhane
+      designation: Assistant Professor
+    - name:	Ms. G.M. Hattekar
+      designation: Assistant Professor
+    - name:	Ms. V.S. Rasal
+      designation: Assistant Professor
+    - name:	Ms. Surbhi Tharewal
+      designation: Assistant Professor
+    - name:	Mr. Kapse Santosh B.
+      designation: Assistant Professor
+    - name:	Mr. Saurabh. P. Nirkhe
+      designation: Assistant Professor
+    - name:	Ms. Snehal Jadhav
+      designation: Assistant Professor
+    - name:	Mr. S. A. Deshmukh
+      designation: Assistant Professor
+    - name:	Ms. A. A. Purekar
+      designation: Assistant Professor
+    - name:	Ms. R. H. Khan
+      designation: Assistant Professor
+    - name:	Mr. R. A. Thote
+      designation: Assistant Professor
+    - name:	Mr. A. K. Pardeshi
+      designation: Assistant Professor
+    - name:	Mr. S. P. Jadhav
+      designation: Assistant Professor
+    - name:	Mr. N. N. Nikam
+      designation: Assistant Professor
+
+
+- branch: cs
+  faculty:
+    - name:	Mr. Kalyankar S. B
+      designation: Associate Professor
+    - name:	Ms. Joshi P.A.
+      designation: Assistant Professor
+    - name:	Mr. Shah S. G.
+      designation: Assistant Professor
+    - name:	Ms. Tribhuvan P. P.
+      designation: Assistant Professor
+    - name:	Mr. Katkar P. M
+      designation: Assistant Professor
+    - name:	Ms. Chaudhari M.P.
+      designation: Assistant Professor
+    - name:	Mr. Rathod P. R.
+      designation: Assistant Professor
+    - name:	Ms. Jain E. R.
+      designation: Assistant Professor
+    - name:	Ms. Solanke S. S.
+      designation: Assistant Professor
+    - name:	Ms. Dhas P. B.
+      designation: Assistant Professor
+    - name:	Mr. Bhalerao P. B.
+      designation: Assistant Professor
+    - name:	Mr. Durole P. H.
+      designation: Assistant Professor
+    - name:	Ms. Ponde S. S.
+      designation: Assistant Professor
+    - name:	Ms. Gaikwad A. S.
+      designation: Assistant Professor
+    - name:	Mr. Muley C. S.
+      designation: Assistant Professor
+    - name:	Ms. Borase P. N.
+      designation: Assistant Professor
+    - name:	Mr. Kolte V. S.
+      designation: Assistant Professor
+    - name:	Mr. Kasarla V. R.
+      designation: Assistant Professor
+    - name:	Mr. Mahadik P. B.
+      designation: Assistant Professor
+    - name:	Mr. Shinde V. S.
+      designation: Assistant Professor
+    - name:	Ms. Khan R. A.
+      designation: Assistant Professor
+    - name:	Mr. Jadhav C. P.
+      designation: Assistant Professor
+    - name:	Ms. S. C. Nandedkar
+      designation: Assistant Professor
+    - name:	Ms. S. K. Shelke
+      designation: Assistant Professor
+    - name:	Ms. N. R. Shaikh
+      designation: Assistant Professor
+    - name:	Ms. A. A. Joshi
+      designation: Assistant Professor
+    - name:	Ms. M. R. Munde
+      designation: Assistant Professor
+
+
+
+
+
+- branch: mba
+  faculty:
+    - name:	Mr. R.G. Rebba
+      designation: Assistant Professor
+    - name:	Ms. Rushina Khan
+      designation: Assistant Professor
+    - name:	Ms. Medha Kulkarni
+      designation: Assistant Professor
+    - name:	Mr. Chandrakant Phad
+      designation: Assistant Professor
+    - name:	Mr. Ingles Roger
+      designation: Assistant Professor
+    - name:	Mr. Raman Karde
+      designation: Assistant Professor
+    - name:	Mr. Mangesh Dasare
+      designation: Assistant Professor
+    - name:	Dr. Gurpreet Attal
+      designation: Assistant Professor
+    - name:	Ms. Jyoti Munde
+      designation: Assistant Professor
+    - name:	Mr. Bharat Pawar
+      designation: Assistant Professor
+    - name:	Mr. Prasad Sahasrabudhe
+      designation: Assistant Professor
+    - name:	Mr. Amarsingh Mali
+      designation: Assistant Professor
+    - name:	Ms. Saniya Shiurkar
+      designation: Assistant Professor
+    - name:	Mr. D. B. Magar
+      designation: Assistant Professor
+    - name:	Ms. R. M. Ludrik
+      designation: Assistant Professor
+    - name:	Mr. F. N. Pathan
+      designation: Assistant Professor
+    - name:	Mr. V. V. Vasundekar
+      designation: Assistant Professor
+
+- branch: Executive Council
+  faculty:
+    - name:	Shri Prakash Sundarrao Solanke
+      designation: President
+    - name:	Shri Shaikh Ahmed Shaikh Chand
+      designation: Vice President
+    - name:	Shri Mansing Balasaheb Pawar
+      designation: Vice President
+    - name:	Shri Satish Bhanudasrao Chavan
+      designation: Secretary
+    - name:	Shri Amarsinha Shivajirao Pandit
+      designation: Joint-Secretary
+    - name:	Shri Anil Sakharam Nakhate
+      designation: Joint-Secretary
+    - name:	Shri Dr. Avinash Daultrao Yelikar
+      designation: Treasurer
+    - name:	Shri Chandrashekhar Venkatrao Rajurkar
+      designation: Member
+    - name:	Shri Prabhakar Manikrao Palodkar
+      designation: Member
+    - name:	Shri Mohan Vinayakrao Sawant
+      designation: Member
+    - name:	Shri Meghraj Bhaurao Adaskar
+      designation: Member
+    - name:	Shri. Trimbakrao Tulshiram Pathrikar
+      designation: Member
+    - name:	Shri Hemant Raosaheb Jamkar
+      designation: Member
+    - name:	Shri Vivek D. Bhosale
+      designation: Member
+    - name:	Shri Machhindra Tatyasaheb Deshmukh
+      designation: Member
+    - name:	Shri Bharat Bhausaheb Solunke
+      designation: Member
+    - name:	Shri Appasaheb Ramkrushna Patil
+      designation: Member
+    - name:	Shri Abhijit Vijaykumar Awargaonkar
+      designation: Member
+    - name:	Shri Vishwas Bharat Patil
+      designation: Member
+    - name:	Shri Narhari Munjaba Nirmal
+      designation: Member
+    - name:	Shri Dr. Prakash Asaram Bhandwaldar
+      designation: Member
+
+- branch: grievance redressal
+  faculty:
+    - name: Dr. Ulhas Shiurkar
+      designation: Chairman
+    - name: Dr. S. L. Dhondge
+      designation: Member
+    - name: Ms. D. M. Dharmadhikari
+      designation: Member
+    - name: Mr. U. S. Patharkar
+      designation: Member
+    - name: Ms. A. V. Nikalje
+      designation: Member
+    - name: Mr. G. S. Wagh
+      designation: Member
+    - name: All Head of Departments
+      designation: Member
+
+
+- branch: internal complaints committee
+  faculty:
+    - name: Dr. Rahat Khan
+      designation: Chairman
+    - name: Ms. A. H. Deshpande
+      designation: Member
+    - name: Ms. A. R. Wadhekar
+      designation: Member
+    - name: Adv. Anita Shiurkar
+      designation: Member
+    - name: Ms. Vandana Waghunde
+      designation: Member
+    - name: Mr. Y. E. Bargal
+      designation: Member
+    - name: Ms. Kavita Mali
+      designation: Member
+    - name: Mr. Satyajeet Dhakne
+      designation: Member
+
+- branch: library committee
+  faculty:
+    - name: Prof. A. A. Nair
+      designation: Chairman
+    - name: Mr. G. S. Wagh
+      designation: Member
+    - name: Prof. A.K. Pardeshi
+      designation: Member
+    - name: Prof. P.P. Dharurkar
+      designation: Member
+    - name: Prof. V.V. Simant
+      designation: Member
+    - name: Prof. P.H. Durole
+      designation: Member
+    - name: Prof. S.B. Salve
+      designation: Member
+    - name: Prof. J.M. Munde
+      designation: Member
+    - name: Mr. Kalpesh Mahajan
+      designation: Member (Student)
+    - name: Miss. Bhakti Kale
+      designation: Member (Student)
+
+
+- branch: IQAC
+  faculty:
+    - name: Dr. Ulhas Shiurkar
+      designation: Chairman
+    - name: Shri. Vishwas Yelikar
+      designation: Member
+    - name: Prof. S. C. Borse
+      designation: Member
+    - name: Prof. A. V. Nikalje
+      designation: Member
+    - name: Prof. S. S. Ponde
+      designation: Member
+    - name: Prof. A. S. Pathan
+      designation: Member
+    - name: Prof. C. V. Mane
+      designation: Member
+    - name: Dr. Gurpreet Attal
+      designation: Member
+    - name: Mr. G. N. Tambe
+      designation: Member
+    - name: Mr. Prashant Varma
+      designation: Member (Invitee)
+    - name: Mr. Ashish Garde
+      designation: Member (Invitee)
+    - name: Ms. Ankita Vidhate
+      designation: Member (Invitee)
+    - name: Mr. U. J. Chamargore
+      designation: Member (Invitee)
+
+
+
+
+- branch: anti ragging
+  faculty:
+    - name:	Dr. Ulhas Shiurkar
+      designation: Head of Institution
+      mobile: +91-9011078272
+    - name:	Mrs. Yogita Nahar
+      designation: Representative of Civil Society
+      mobile: +91-9518557203
+    - name:	P.I. Vedant Nagar
+      designation: Police Station	Representative of Police Department
+      mobile: 0240-2351333
+    - name:	Mr. Ashish Choudhary
+      designation: Representative of Local Media
+      mobile: +91-9270647981
+    - name:	Mr. Arun Dakekar
+      designation: Representative of NGO
+      mobile: +91-9503873754
+    - name:	Mr. Trilok Singh Jabinda
+      designation: Representative of Parents
+      mobile: +91-9325862985
+    - name:	Prof. N. V. Sawadekar
+      designation: Representative of Faculty
+      mobile: +91-8378058862
+    - name:	Prof. P. M. Soni
+      designation: Representative of Faculty
+      mobile: +91-9422709011
+    - name:	Mr. Shubham Mamilwad
+      designation: Representative of Students
+      mobile: +91-9158340700
+    - name:	Ms. Yogeshwari Chintamani
+      designation: Representative of Students
+      mobile: +91-8087749741
+    - name:	Mr. Y. E. Bargal
+      designation: Representative of Non-Teaching Staff
+      mobile: +91-9404987795

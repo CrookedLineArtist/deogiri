@@ -1,0 +1,90 @@
+<!-- Header -->
+<div class="primary-navigation-wrapper">
+  <header class="navbar" id="top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+        <div class="navbar-brand nav" id="brand">
+          <a href="/index.html"><img src="/assets/img/logo.png" alt="brand"></a>
+        </div>
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right " role="navigation">
+        <ul class="nav navbar-nav">
+
+
+
+
+
+  {% for nav in site.data.nav %}
+
+
+    <li >
+      <a  {% if nav.sub-nav %} href="#" class=" has-child no-link" {% else %} href="/{{ nav.title }}.html" {% endif %}>
+        {{ nav.title | capitalize}}
+      </a>
+
+          <ul  class="list-unstyled child-navigation" >
+            {% for sub in nav.sub-nav %}
+
+            <li>
+              <a href= "{% if {{nav.title}} != 'academic' %}
+                        /{{nav.title}}/{{sub}}.html
+                        {% else %}
+                         /{{ nav.title }}.html?course-type={{sub}}
+                        {% endif %}" >
+
+                {{ sub }}
+              </a>
+            </li>
+
+            {% endfor %}
+          </ul>
+
+
+
+    </li>
+
+  {% endfor %}
+
+          <!-- <li class="active">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#" class=" has-child no-link">Courses</a>
+            <ul class="list-unstyled child-navigation">
+              <li><a href="course-landing-page.html">Course Landing Page</a></li>
+              <li><a href="course-listing.html">Course Listing</a></li>
+              <li><a href="course-listing-images.html">Course Listing with Images</a></li>
+              <li><a href="course-detail-v1.html">Course Detail v1</a></li>
+              <li><a href="course-detail-v2.html">Course Detail v2</a></li>
+              <li><a href="course-detail-v3.html">Course Detail v3</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="about-us.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact-us.html">Contact Us</a>
+          </li> -->
+
+        </ul>
+      </nav>
+      <!-- /.navbar collapse-->
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.navbar -->
+</div>
+<!-- /.primary-navigation -->
+<div class="background">
+  <img src="/assets/img/background-city.png" alt="background">
+</div>
+
+
+<!-- end Header -->

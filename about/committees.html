@@ -1,0 +1,212 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+site-map-1: about us
+branch: Committee Details
+
+---
+
+
+
+<!-- Page Content -->
+<div id="page-content">
+    <div class="container">
+        <div class="row">
+            <!--MAIN Content-->
+            <div class="col-md-8" >
+                <div id="page-main" >
+
+
+                    <section id="MSPM" >
+                        <header><h1> Committee Details</h1></header>
+
+
+
+                        <div id="anti-ragging">
+                          <h2>Anti Ragging</h2>
+                          <div class="table-responsive">
+                                          <table class="table table-hover course-list-table tablesorter">
+                                              <thead>
+                                              <tr>
+
+                                                  <th >Designation</th>
+                                                  <th>Name</th>
+                                                  <th >Mobile</th>
+                                              </tr>
+                                              </thead>
+
+                                              <tbody>
+
+
+
+                                                {% for f in site.data.faculties %}
+
+                                                  {% if f.branch == 'anti ragging' %}
+                                                  {% for fa in f.faculty %}
+                                                          <tr>
+
+                                                            <th>{{ fa.designation }}</th>
+                                                            <th >{{ fa.name }}</th>
+                                                            <th>{{ fa.mobile }}</th>
+                                                          </tr>
+                                                    {% endfor %}
+
+                                                  {% endif %}
+
+
+                                                {% endfor %}
+
+                                              </tbody>
+                                          </table>
+                                      </div>
+                        </div>
+                        <div id="grievance-redressal">
+                          <h2>Grievance Redressal</h2>
+                          <div class="table-responsive">
+                                          <table class="table table-hover course-list-table tablesorter">
+                                              <thead>
+                                              <tr>
+                                                  <th>Name</th>
+                                                  <th class="starts">Designation</th>
+                                              </tr>
+                                              </thead>
+
+                                              <tbody>
+
+
+
+                                                {% for f in site.data.faculties %}
+
+                                                  {% if f.branch == 'grievance redressal' %}
+                                                  {% for fa in f.faculty %}
+                                                          <tr>
+                                                            <th >{{ fa.name }}</th>
+                                                            <th>{{ fa.designation }}</th>
+                                                          </tr>
+                                                    {% endfor %}
+
+                                                  {% endif %}
+
+
+                                                {% endfor %}
+
+                                              </tbody>
+                                          </table>
+                                      </div>
+                        </div>
+                        <div id="internalComplaints">
+                          <h2>Internal Complaints Committee</h2>
+                          <div class="table-responsive">
+                                          <table class="table table-hover course-list-table tablesorter">
+                                              <thead>
+                                              <tr>
+                                                  <th>Name</th>
+                                                  <th class="starts">Designation</th>
+                                              </tr>
+                                              </thead>
+
+                                              <tbody>
+
+
+
+                                                {% for f in site.data.faculties %}
+
+                                                  {% if f.branch == 'internal complaints committee' %}
+                                                  {% for fa in f.faculty %}
+                                                          <tr>
+                                                            <th >{{ fa.name }}</th>
+                                                            <th>{{ fa.designation }}</th>
+                                                          </tr>
+                                                    {% endfor %}
+
+                                                  {% endif %}
+
+
+                                                {% endfor %}
+
+                                              </tbody>
+                                          </table>
+                                      </div>
+                        </div>
+                        <div id="library">
+                          <h2>Library Committee</h2>
+                          <div class="table-responsive">
+                                          <table class="table table-hover course-list-table tablesorter">
+                                              <thead>
+                                              <tr>
+                                                  <th>Name</th>
+                                                  <th class="starts">Designation</th>
+                                              </tr>
+                                              </thead>
+
+                                              <tbody>
+
+
+
+                                                {% for f in site.data.faculties %}
+
+                                                  {% if f.branch == 'library committee' %}
+                                                  {% for fa in f.faculty %}
+                                                          <tr>
+                                                            <th >{{ fa.name }}</th>
+                                                            <th>{{ fa.designation }}</th>
+                                                          </tr>
+                                                    {% endfor %}
+
+                                                  {% endif %}
+
+
+                                                {% endfor %}
+
+                                              </tbody>
+                                          </table>
+                                      </div>
+                        </div>
+                        <div id="IQAC">
+                          <h2>IQAC</h2>
+                          <div class="table-responsive">
+                                          <table class="table table-hover course-list-table tablesorter">
+                                              <thead>
+                                              <tr>
+                                                  <th>Name</th>
+                                                  <th class="starts">Designation</th>
+                                              </tr>
+                                              </thead>
+
+                                              <tbody>
+
+
+
+                                                {% for f in site.data.faculties %}
+
+                                                  {% if f.branch == 'IQAC' %}
+                                                  {% for fa in f.faculty %}
+                                                          <tr>
+                                                            <th >{{ fa.name }}</th>
+                                                            <th>{{ fa.designation }}</th>
+                                                          </tr>
+                                                    {% endfor %}
+
+                                                  {% endif %}
+
+
+                                                {% endfor %}
+
+                                              </tbody>
+                                          </table>
+                                      </div>
+                        </div>
+
+                    </section>
+
+
+                </div><!-- /#page-main -->
+            </div><!-- /.col-md-8 -->
+
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
+<!-- end Page Content -->
